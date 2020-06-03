@@ -5,12 +5,12 @@ public class Song {
     private String title;
     private String artist;
     private String album;
-    private String albumArt;
+    private int albumArt;
 
     public Song() {
     }
 
-    public Song(String title, String artist, String album, String albumArt) {
+    public Song(String title, String artist, String album, int albumArt) {
         this.title = title;
         this.artist = artist;
         this.album = album;
@@ -41,11 +41,11 @@ public class Song {
         this.album = album;
     }
 
-    public String getAlbumArt() {
+    public int getAlbumArt() {
         return albumArt;
     }
 
-    public void setAlbumArt(String albumArt) {
+    public void setAlbumArt(int albumArt) {
         this.albumArt = albumArt;
     }
 
